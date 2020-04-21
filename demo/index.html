@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <title>firebase-loginheader demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+    <script type="module" src="../firebase-loginheader.js"></script>
+    <style>
+      .blocks {
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+      }
+      .block {
+        display:flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        white-space: normal;
+      }
+      .code {
+        padding: 20px;
+        color:#FFF; 
+        background: #000;
+      }
+      .attributes {
+        padding-left: 20px;
+      }
+
+      .header {
+        --title-color: #F30;
+        --subtitle-color: #999;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Basic firebase-loginheader Demo</h3>
+      <div class="blocks">
+        <pre class="block code">
+          <code>
+            &lt;firebase-loginheader&gt;&lt;/firebase-loginheader&gt;
+          </code>
+        </pre>
+        <pre class="block attributes">
+          <h3>Attributes</h3>
+          <ul>
+            <li>title (String)</li>
+            <li>subtitle (String)</li>
+            <li>background-image (String)</li>
+            <li>api-key</li>
+            <li>domain (String)</li>
+            <li>messaging-sender-id (String)</li>
+            <li>app-id (String)</li>
+          </ul>
+        </pre>
+      </div>
+
+      <firebase-loginheader 
+        class="header"
+        background-image='https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg'
+        api-key="AIzaSyDaAaGDF5ESVSOexYdQEUFoW3YthqDeK2c"
+        domain="seguimiento-mensual"
+        messaging-sender-id="1058838981723"
+        app-id="1:1058838981723:web:e2e69043f945a99bc0e37e" 
+      >
+      </firebase-loginheader>
+    </div>
+  </body>
+</html>
