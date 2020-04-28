@@ -1,7 +1,7 @@
 {
   "name": "firebase-loginheader",
   "description": "Lit-Element webcomponent firebase-loginheader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "firebase-loginheader.js",
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/manufosela/firebase-loginheader",
   "dependencies": {
-    "firebase-loginbutton": "^2.4.2",
+    "firebase-loginbutton": "^2.4.3",
     "lit-element": "^2.1.0"
   },
   "devDependencies": {
