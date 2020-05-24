@@ -101,7 +101,7 @@ class FirebaseLoginheader extends LitElement {
   }
 
   firstUpdated() {
-    this.urlBgImg = (this.bgimg !== '') ? `url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAAA1BMVEUuLTSUN/hqAAAAAXRSTlO99TYXVwAAABxJREFUWMPtwYEAAAAAw6D7U19hANUAAAAAAKIDFFAAARZNHj8AAAAASUVORK5CYII="), url("${this.bgimg}")` : '';
+    this.urlBgImg = (this.bgimg !== '') ? `url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAAA1BMVEUuLTSUN/hqAAAAAXRSTlO99TYXVwAAABxJREFUWMPtwYEAAAAAw6D7U19hANUAAAAAAKIDFFAAARZNHj8AAAAASUVORK5CYII="), url("${this.urlBgImg}")` : '';
   }
 
   render() {
