@@ -34,6 +34,9 @@ class FirebaseLoginheader extends LitElement {
       :host {
         display: block;
         width:100%;
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
         --local-header-height: var(--header-height, 120px);
         --local-title-color: var(--title-color, #000);
         --local-subtitle-color: var(--subtitle-color, #444);
@@ -43,6 +46,8 @@ class FirebaseLoginheader extends LitElement {
       .bannerBG {
         background-color: var(--local-background-color); 
         position: absolute;
+        left:0;
+        top:0;
         width: 100%;
         height: var(--local-header-height);
         background-attachment: fixed;
@@ -69,6 +74,13 @@ class FirebaseLoginheader extends LitElement {
         z-index:1;
         max-width: 200px;
         height: 50px;
+      }
+      header {
+        position: absolute;
+        width:100%;
+        height: 120px;
+        top:0;
+        left:0;      
       }
       h1 {
         color: var(--local-title-color);
