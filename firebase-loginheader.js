@@ -42,6 +42,8 @@ class FirebaseLoginheader extends LitElement {
         --local-subtitle-color: var(--subtitle-color, #444);
         --local-background-color: var(--background-color,#FF0);
         --local-background-opacity: var(--background-opacity, 0.9);
+        --local-title-size: var(--title-size, 2rem);
+        --local-subtitle-size: var(--subtitle-size, 1.4rem);
       }
       .bannerBG {
         background-color: var(--local-background-color); 
@@ -84,9 +86,11 @@ class FirebaseLoginheader extends LitElement {
       }
       h1 {
         color: var(--local-title-color);
+        font-size: var(--local-title-size);
       }
       h2 {
         color: var(--local-subtitle-color);
+        font-size: var(--local-subtitle-size);
       }
       h1, h2 {
         top: -50px;
