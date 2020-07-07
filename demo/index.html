@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
     <script type="module" src="../firebase-loginheader.js"></script>
     <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      html, body { margin:0; }
+
       .blocks {
         display:flex;
         flex-direction:row;
@@ -27,8 +34,13 @@
       }
 
       .header {
+        --title-size: 3rem;
         --title-color: #F30;
         --subtitle-color: #999;
+        --header-height: 200px;
+
+        position:absolute;
+        top: 350px;
       }
     </style>
   </head>
