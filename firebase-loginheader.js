@@ -78,7 +78,6 @@ class FirebaseLoginheader extends LitElement {
         height: 50px;
       }
       header {
-        position: absolute;
         width:100%;
         height: 120px;
         top:0;
