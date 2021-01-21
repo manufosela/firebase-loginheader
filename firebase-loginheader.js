@@ -44,12 +44,13 @@ class FirebaseLoginheader extends LitElement {
         --local-background-opacity: var(--background-opacity, 0.9);
         --local-title-size: var(--title-size, 2rem);
         --local-subtitle-size: var(--subtitle-size, 1.4rem);
+        --local-bannerBG-top: var(--bannerBG-top, 0);
       }
       .bannerBG {
         background-color: var(--local-background-color); 
         position: absolute;
         left:0;
-        top:0;
+        top: var(--local-bannerBG-top, 0);
         width: 100%;
         height: var(--local-header-height);
         background-attachment: fixed;
