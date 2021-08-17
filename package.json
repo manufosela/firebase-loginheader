@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/manufosela/firebase-loginheader",
   "dependencies": {
-    "firebase-loginbutton": "^2.4.3",
+    "firebase-loginbutton": "^3.0.2",
     "lit-element": "^2.1.0"
   },
   "devDependencies": {
